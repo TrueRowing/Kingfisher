@@ -27,6 +27,7 @@
 import Foundation
 
 // Represents the delegate object of downloader session. It also behave like a task manager for downloading.
+@objc(KFSessionDelegate)
 class SessionDelegate: NSObject {
 
     typealias SessionChallengeFunc = (
